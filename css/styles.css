@@ -1,6 +1,12 @@
 body{
-    margin: 0px;
+    font-family: "Montserrat";
+    text-align: center;
 }
+  
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-bold";
+}
+  
 
 .navbar-color
 {
@@ -24,6 +30,10 @@ body{
     padding: 20px;
     
 }
+.navbar-toggler
+{
+    background-color: white;
+}
 
 .header-head
 {
@@ -34,6 +44,7 @@ body{
 .jumbotron p
 {
     margin-bottom: 40px;
+    line-height: 2.0;
 }
 
 .btn
@@ -41,3 +52,56 @@ body{
     margin-left: 40px;
     margin-top: 10px;
 }
+.about
+{
+    height: 300px;
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.about h1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.about p{
+    font-weight: 500;
+}
+.services
+{
+    background:  #3E50B4 !important;
+    padding: 20px;
+    text-align: center;
+}
+
+.services h1
+{
+    margin-top: 40px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.services p{
+    font-weight: 500;
+    color: white;
+
+}
+  
+  
+#pricing{
+    padding: 100px;
+}
+  
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+  
+.pricing-col{
+    padding: 3% 2%;
+}
+
