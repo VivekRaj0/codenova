@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+.navbar-color
+{
+    background-color: #3E50B4 !important;
+    height: 70px;
+    font-size: 15px;
+    
+}
+
+.nav-link ,.navbar-brand {
+    color: white !important;
+    margin: 10px 10px;
+}
+
+.jumbotron {
+    height: 500px;
+    
+    background: #3E50B4 !important;
+    color: white;
+    margin-top: 65px;
+    padding: 20px;
+    
+}
+
+.header-head
+{
+    
+    margin-bottom: 40px;
+}
+
+.jumbotron p
+{
+    margin-bottom: 40px;
+}
+
+.btn
+{
+    margin-left: 40px;
+    margin-top: 10px;
+}
